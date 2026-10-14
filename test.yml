@@ -1,0 +1,8 @@
+name: CI/CD
+on: [push]
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test
+      run: echo "Primitive Test"
