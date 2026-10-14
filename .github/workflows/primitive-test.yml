@@ -5,4 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Test
-      run: echo "Primitive Test"
+      run: | 
+        echo "Primitive Test"
+        echo "Bug!!!"
+        exit 1
